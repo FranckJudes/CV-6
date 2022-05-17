@@ -1,14 +1,40 @@
-<nav class="breadcrumb  is-size-5 px-4 mx-6 py-4" aria-label="breadcrumbs">
-  <ul>
-    <li><a href="#">TP</a></li>
-    <li><a href="#">Documentation</a></li>
-    <li><a href="#">Components</a></li>
-    <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
-  </ul>
-</nav>
-<div class="field">
-  <p class="control has-icons-left has-icons-right px-4 mx-6 py-4 is-size-1">
-    CV-6 Bonne Chance pour le TP
+<div class="columns is-full ">
 
-  </p>
-</div>
+    <div class="column is-one-third is-3 box mt-5">
+      <figure class="">
+        <img [src]="url" height="250px" width="150px">
+      </figure>
+      <p>
+        <input type="file" (change)="changerPhoto($event)">
+        <span class="tag is-warning tag is-rounded  is-large">Changer Photo</span>
+      </p>
+      <div>
+        Profil
+      </div>
+    </div>
+
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+
+      <div class="column is-9  is-narrow mt-2">
+        <div class="box">
+          <p class="title is-5 ">Experience Professionnelles</p>
+          <p class="subtitle">#message</p>
+        </div>
+        <div class="box">
+          <p class="title is-5">Formation</p>
+          <p class="subtitle">#message</p>
+        </div>
+        <div class="message is-info">
+          <div class="message-header">
+            Formation
+          </div>
+          <div class="message-body">
+           #message
+          </div>
+        </div>
+      </div>
+  
+
+     
+<div>
