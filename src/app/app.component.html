@@ -1,6 +1,6 @@
-<div class="columns is-full ">
-
-    <div class="column is-one-third is-3 box ml-6 pl-6 mt-6 bulma-overlay-mixin-parent ">
+<div class="columns container is-fluid is-1-desktop">
+  <div></div>
+    <div class="coloumn container is-2 is-size-3-mobile box bulma-overlay-mixin-parent ">
       <figure class="bulma-overlay-mixin">
         <img [src]="url" height="250px" width="150px">
       </figure>
@@ -8,60 +8,53 @@
         <input type="file" (change)="changerPhoto($event)">
         <span class="tag is-warning tag is-rounded  is-large">Changer Photo</span><br>
       </p>
-          <div class="p-5">
-                <div>
-                  <p>Profil</p> 
-                </div>
+          <div class="">
+            <div class="message-header">
+              Profil
+              </div>
                 <div>
                   <p>ADRESSE : </p>
-                  <p>   </p>
+                  <p> Yaounde  </p>
                 </div>
                 <div>
                   <p>EMAIL : </p>
-                  <p>   </p>
+                  <p> franckjude87@gmail.com  </p>
                 </div>
                 <div>
                   <p>TELEPHONE : </p>
-                  <p>   </p>
+                  <p>  656938482 </p>
                 </div>
                 <div>
-                  <p>DATE DE NAISSANCE : </p>
-                  <p>   </p>
+                  <p>Date de naissance: </p>
+                  <p>  01/03/2000</p>
                 </div>
                      
           </div>
-          <div class="p-5">
-                <div> 
-                  <p>LOISIRS</p> 
-                </div>
-                <div>
-                  <p><i class="fab fa-google"></i></p>
-                  <p>   </p>
-                </div>
-                <div>
-                  <p>JEUX VIDEO</p>
-                  <p>   </p>
-                </div>
-          </div>          
-               
+          <div>
+            
+          </div>
           
     </div>
 
 <!-- -------------------------------------------------------------------------------------------------- -->
 
 
-      <div class="column is-8  is-narrow mt-2  pl-6 mt-6 ">
+      <div class="column  is-size-3-mobile is-9 is-narrow mt-2  pl-6 mt-6 ">
         <div class="box">
           <p class="title is-5 ">Experience Professionnelles</p>
           <p class="subtitle">#message</p>
         </div>
-        <div class="box">
-          <p class="title is-5">Formation</p>
-          <p class="subtitle">#message</p>
-        </div>
+
+        <article class="message is-info box">
+          <p class="title is-5 ">Formation</p>
+              <div class="message-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+              </div>
+          </article>
+
         <div class="message is-info">
           <div class="message-header">
-            Formation
+              Competences
           </div>
           <div class="message-body">
            #message
