@@ -1,14 +1,67 @@
-<nav class="breadcrumb  is-size-5 px-4 mx-6 py-4" aria-label="breadcrumbs">
-  <ul>
-    <li><a href="#">TP</a></li>
-    <li><a href="#">Documentation</a></li>
-    <li><a href="#">Components</a></li>
-    <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
-  </ul>
-</nav>
-<div class="field">
-  <p class="control has-icons-left has-icons-right px-4 mx-6 py-4 is-size-1">
-    CV-6 Bonne Chance pour le TP
+<div class="columns container is-fluid is-1-desktop">
+  <div></div>
+    <div class="coloumn container is-2 is-size-3-mobile box bulma-overlay-mixin-parent ">
+      <figure class="bulma-overlay-mixin">
+        <img [src]="url" height="250px" width="150px">
+      </figure>
+      <p>
+        <input type="file" (change)="changerPhoto($event)">
+        <span class="tag is-warning tag is-rounded  is-large">Changer Photo</span><br>
+      </p>
+          <div class="">
+            <div class="message-header">
+              Profil
+              </div>
+                <div>
+                  <p>ADRESSE : </p>
+                  <p> Yaounde  </p>
+                </div>
+                <div>
+                  <p>EMAIL : </p>
+                  <p> franckjude87@gmail.com  </p>
+                </div>
+                <div>
+                  <p>TELEPHONE : </p>
+                  <p>  656938482 </p>
+                </div>
+                <div>
+                  <p>Date de naissance: </p>
+                  <p>  01/03/2000</p>
+                </div>
+                     
+          </div>
+          <div>
+            
+          </div>
+          
+    </div>
 
-  </p>
-</div>
+<!-- -------------------------------------------------------------------------------------------------- -->
+
+
+      <div class="column  is-size-3-mobile is-9 is-narrow mt-2  pl-6 mt-6 ">
+        <div class="box">
+          <p class="title is-5 ">Experience Professionnelles</p>
+          <p class="subtitle">#message</p>
+        </div>
+
+        <article class="message is-info box">
+          <p class="title is-5 ">Formation</p>
+              <div class="message-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+              </div>
+          </article>
+
+        <div class="message is-info">
+          <div class="message-header">
+              Competences
+          </div>
+          <div class="message-body">
+           #message
+          </div>
+        </div>
+      </div>
+     
+
+     
+<div>
