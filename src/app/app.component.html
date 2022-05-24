@@ -1,14 +1,242 @@
-<nav class="breadcrumb  is-size-5 px-4 mx-6 py-4" aria-label="breadcrumbs">
+<nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
-    <li><a href="#">TP</a></li>
-    <li><a href="#">Documentation</a></li>
-    <li><a href="#">Components</a></li>
-    <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+    <li>
+      <a href="#">
+        <span class="icon is-small">
+          <i class="fas fa-home" aria-hidden="true"></i>
+        </span>
+        <span>CV</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon is-small">
+          <i class="fas fa-book" aria-hidden="true"></i>
+        </span>
+        <span>Documentation</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon is-small">
+          <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
+        </span>
+        <span>Components</span>
+      </a>
+    </li>
+    <li class="is-active">
+      <a href="#">
+        <span class="icon is-small">
+          <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+        </span>
+        <span>Breadcrumb</span>
+      </a>
+    </li>
   </ul>
 </nav>
-<div class="field">
-  <p class="control has-icons-left has-icons-right px-4 mx-6 py-4 is-size-1">
-    CV-6 Bonne Chance pour le TP
+<!---------------------------------------------------------------------->
+<div class="columns is-gapless forced-gapless">
 
-  </p>
+  <!-- Colonne de gauche -->
+  <div id="gauche" class="column is-3-desktop is-4-tablet">
+    <section class="hero is-light is-fullheight">
+      <div class="hero-head has-text-centered">
+
+        <!-- Image -->
+        <figure class="image is-128x128">
+          <img class="is-rounded" src="./profile.jpeg">
+        </figure>
+
+        <!-- Nombre -->
+        <div id="name" class="container">
+          <h1 class="title">NAME</h1>
+          <h2 class="subtitle">Student</h2>
+        </div>
+      </div>
+
+      <div class="hero-body align-start">
+        <div class="container is-fluid">
+          <aside class="menu" id="lista">
+
+            <!-- Contact -->
+            <p class="menu-label">
+              Contact
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a role="button" class="icon-text">
+                  <span class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <!-- Telephone -->
+                  </span> 6.98.270.971
+                </a>
+              </li>
+              <li>
+                <a href="mailto:danielasubui2@gmail.com" class="icon-text">
+                  <span class="icon">
+                    <i class="fas fa-envelope-o"></i>
+                    <!-- Mail -->
+                  </span> danielasubui2@gmail@gmail.com
+                </a>
+              </li>
+            </ul>
+
+            <!-- Hobbies -->
+            <p class="menu-label">
+              Hobbies
+            </p>
+            <ul class="menu-list">
+              <li><a role="button">Slam</a></li>
+              <li><a role="button">Programmeur</a></li>
+            </ul>
+
+            <!-- Reseau sociaux -->
+            <p class="menu-label">
+              MEDIAS SOCIAUX
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a href="https://www.facebook.com/daniel.asubui?ref=bookmarks" class="icon-text">
+                  <span class="icon is-small">
+                    <i class="fa fa-facebook"></i>
+                    <!-- Facebook -->
+                  </span> daniel.asubui
+                </a>
+              </li>
+              <li>
+                <a href="https://ar.linkedin.com/in/danielasubui" class="icon-text">
+                  <span class="icon is-small">
+                    <i class="fa fa-linkedin"></i>
+                    <!-- LinkedIN -->
+                  </span> danielasubui
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Colonne de droite -->
+  <div class="column">
+    <section class="hero is-fullheight">
+      <div class="hero-body align-start">
+        <div class="container is-fluid">
+          <div class="content">
+
+            <!-- A propos -->
+            <h1>A propos de moi</h1>
+            <p>Je m'appelle <strong>Daniel asubui</strong>, je vie a Yaounde, Au Cameroun. Je suis ne le <strong>12 octobre 2000</strong></p>
+
+            <!-- Etudes -->
+            <h2>Etudes</h2>
+            <ul>
+              <li>Baccalaureat en <strong>BIO-CHIMIE</strong>, Centre scolaire Congolais, en 2019.</li>
+              <li><strong>Formation en leadership</strong>, en 2019.</li>
+            </ul>
+
+            <!-- Experience -->
+            <h2>Experience</h2>
+
+            <!-- PROFFESSIONNEL & AUTRE -->
+            <h3>Experience</h3>
+
+            <div class="box">
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Gestionnaire & Secretaire</strong> <small></small> <small>2018 - present</small>
+                      <br> Le travail consistait a gerer les fonds d une organisation d'evenement culturel.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Autre-->
+            <h3>Autre</h3>
+
+            <div class="box">
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Jewe slam</strong> <small>Slameur</small> <small>2019 - </small>
+                      <br> Ecriture, composition.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+         
+            <!-- Projets -->
+            <h3>Projets</h3>
+
+            <div class="box">
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Gestion biblio</strong> <small>(HTML,CSS,JS,PHP.(JAVA))</small> <small>2020-2022</small>
+                      <br> Systeme de gestion dynamique d'une bibliotheque.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Competence technique -->
+            <h3>Competence technique</h3>
+
+            <div id="Competence">
+
+              <div class="columns">
+                <div class="column is-3 forced-gapless">
+                  <h5 class="subtitle habilidad">HTML,CSS</h5>
+                </div>
+                <div class="column">
+                  <progress class="progress is-warning" value="90" max="100"></progress>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-3 forced-gapless">
+                  <h5 class="subtitle habilidad">JAVA</h5>
+                </div>
+                <div class="column">
+                  <progress class="progress is-warning" value="60" max="100"></progress>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-3 forced-gapless">
+                  <h5 class="subtitle habilidad">Python</h5>
+                </div>
+                <div class="column">
+                  <progress class="progress is-warning" value="70" max="100"></progress>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p class="has-text-black">
+            <strong>CV</strong> de <a href="https://ar.linkedin.com/in/danielasubui">daniel.asubui</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
 </div>
