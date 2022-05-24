@@ -1,0 +1,14 @@
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.contain{
+    background-color: cornflowerblue;
+    width: 50%;
+    height: 100rem;
+}
